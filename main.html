@@ -1,18 +1,22 @@
 <!doctype html>
-<html>
+<html lang="en-GB">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="./assets/fonts/feather/feather.css">
     <link rel="stylesheet" href="./assets/css/theme.css">
     <link rel="stylesheet" href="./assets/css/site.css">
-    <title>Page title</title>
+    <title>ACME Fashion House | Fashion for Women, Men and Kids</title>
 </head>
 <body>
+<header>
 <div class="navbar navbar-topbar navbar-expand-xl navbar-light bg-light">
     <div class="container">
         <!-- Promo -->
         <div class="mr-xl-8">
+            <div id="skiplink">
+                <a href="#bestpicks">Skip to Best Picks 2020</a>
+            </div>
             <i class="fe fe-truck mr-2"></i> <span class="heading-xxxs">Free shipping worldwide</span>
         </div>
     </div>
@@ -24,11 +28,11 @@
         <!-- Brand -->
         <h1 class="sr-hidden">ACME Fashion House</h1>
         <a class="navbar-brand" href="#">
-            <img src="./assets/img/site/logo.png" width="209" height="81">
+            <img src="./assets/img/site/logo.png" alt="ACME Fashion House - home page" width="209" height="81">
         </a>
 
         <!-- Collapse -->
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+        <nav class="collapse navbar-collapse" id="navbarCollapse" aria-label="Main">
             <!-- Nav -->
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item dropdown">
@@ -59,32 +63,34 @@
             <!-- Nav -->
             <ul class="navbar-nav flex-row">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="#" aria-label="Search">
                         <i class="fe fe-search"></i>
                     </a>
                 </li>
                 <li class="nav-item ml-lg-n4">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="#" aria-label="My account">
                         <i class="fe fe-user"></i>
                     </a>
                 </li>
                 <li class="nav-item ml-lg-n4">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="#" aria-label="Wishlist">
                         <i class="fe fe-heart"></i>
                     </a>
                 </li>
                 <li class="nav-item ml-lg-n4">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="#" aria-label="Shopping cart, 2 items">
 								<span data-cart-items="2">
 									<i class="fe fe-shopping-cart"></i>
 								</span>
                     </a>
                 </li>
             </ul>
-        </div>
+        </nav>
     </div>
 </div>
+</header>
 
+<main>
 <!-- PROMO -->
 <div class="py-3 bg-dark bg-pattern mb-4 promo">
     <div class="container">
@@ -111,15 +117,15 @@
                 <div class="card-body mt-auto mb-n11 py-8">
                     <!-- Heading -->
                     <div class="center itemHeader">
-                        <div class="mb-0 font-weight-bolder h2">
+                        <h2 class="mb-0 font-weight-bolder h2">
                             Women
-                        </div>
+                        </h2>
                     </div>
                 </div>
                 <div class="card-body mt-auto py-8">
 
                     <!-- Button -->
-                    <a class="btn btn-white stretched-link" href="#">
+                    <a class="btn btn-white stretched-link" href="#" aria-label="Shop Women's clothing">
                         Shop Women <i class="fe fe-arrow-right ml-2"></i>
                     </a>
 
@@ -133,14 +139,14 @@
                 <div class="card-body mt-auto mb-n11 py-8">
                     <!-- Heading -->
                     <div class="center itemHeader">
-                        <div class="mb-0 font-weight-bolder h2">
+                        <h2 class="mb-0 font-weight-bolder h2">
                             Men
-                        </div>
+                        </h2>
                     </div>
                 </div>
                 <div class="card-body mt-auto py-8">
                     <!-- Button -->
-                    <a class="btn btn-white stretched-link" href="#">
+                    <a class="btn btn-white stretched-link" href="#" aria-label="Shop Men's clothing">
                         Shop Men <i class="fe fe-arrow-right ml-2"></i>
                     </a>
                 </div>
@@ -153,14 +159,14 @@
                 <div class="card-body mt-auto mb-n11 py-8">
                     <!-- Heading -->
                     <div class="center itemHeader">
-                        <div class="mb-0 font-weight-bolder h2">
+                        <h2 class="mb-0 font-weight-bolder h2">
                             Kids
-                        </div>
+                        </h2>
                     </div>
                 </div>
                 <div class="card-body mt-auto py-8">
                     <!-- Button -->
-                    <a class="btn btn-white stretched-link" href="#">
+                    <a class="btn btn-white stretched-link" href="#" aria-label="Shop Kids' clothing">
                         Shop Kids <i class="fe fe-arrow-right ml-2"></i>
                     </a>
                 </div>
@@ -274,12 +280,12 @@
             <div class="col-12 col-md-10 col-lg-8 col-xl-6 text-center">
 
                 <!-- Preheading -->
-                <div class="heading-xxs mb-3 text-gray-400">
+                <div class="heading-xxs mb-3 text-gray-450">
                     New Collection
                 </div>
 
                 <!-- Heading -->
-                <div class="mb-4 h2BestPicks">Best Picks 2020</div>
+                <h2 class="mb-4 h2BestPicks" id="bestpicks">Best Picks 2020</h2>
 
                 <!-- Subheading -->
                 <p class="mb-10 text-gray-500">
@@ -300,10 +306,10 @@
 
                         <div class="itemHeader">
                             <!-- Heading -->
-                            <div class="h4 mb-0">Bags Collection</div>
+                            <h3 class="h4 mb-0">Bags Collection</h3>
 
                             <!-- Link -->
-                            <a class="btn btn-link stretched-link text-reset" href="#">
+                            <a class="btn btn-link stretched-link text-reset" href="#" aria-label="Shop Now: Bags Collection">
                                 Shop Now <i class="fe fe-arrow-right ml-2"></i>
                             </a>
                         </div>
@@ -324,10 +330,10 @@
 
                         <div class="itemHeader">
                             <!-- Heading -->
-                            <div class="h4 mb-0">Printed men’s Shirts</div>
+                            <h3 class="h4 mb-0">Printed men’s Shirts</h3>
 
                             <!-- Link -->
-                            <a class="btn btn-link stretched-link px-0 text-reset" href="#">
+                            <a class="btn btn-link stretched-link px-0 text-reset" href="#" aria-label="Shop Now: Printed men's Shirts">
                                 Shop Now <i class="fe fe-arrow-right ml-2"></i>
                             </a>
                         </div>
@@ -341,10 +347,10 @@
                     <div class="card-body my-auto px-md-10 text-center text-md-left">
                         <!-- Heading -->
                         <div class="itemHeader">
-                            <div class="h4 mb-0">Basic women’s Dresses</div>
+                            <h3 class="h4 mb-0">Basic women’s Dresses</h3>
 
                             <!-- Link -->
-                            <a class="btn btn-link stretched-link px-0 text-reset" href="#">
+                            <a class="btn btn-link stretched-link px-0 text-reset" href="#" aria-label="Shop Now: Basic women's Dresses">
                                 Shop Now <i class="fe fe-arrow-right ml-2"></i>
                             </a>
                         </div>
@@ -359,10 +365,10 @@
                     <div class="card-body my-auto text-center">
                         <!-- Heading -->
                         <div class="itemHeader">
-                            <div class="h4 mb-0">Sweatshirts</div>
+                            <h3 class="h4 mb-0">Sweatshirts</h3>
 
                             <!-- Link -->
-                            <a class="btn btn-link stretched-link text-reset" href="#">
+                            <a class="btn btn-link stretched-link text-reset" href="#" aria-label="Shop Now: Sweatshirts">
                                 Shop Now <i class="fe fe-arrow-right ml-2"></i>
                             </a>
                         </div>
@@ -379,7 +385,7 @@
         <div class="row justify-content-center">
             <div class="col-12 col-md-10 col-lg-8 col-xl-6">
                 <!-- Heading -->
-                <div class="h2 mb-4 text-center">Top month Sellers</div>
+                <h2 class="h2 mb-4 text-center">Top month Sellers</h2>
 
                 <!-- Nav -->
                 <div class="nav justify-content-center mb-10">
@@ -406,21 +412,21 @@
                             <div class="card-img">
                                 <!-- Image -->
                                 <a href="#">
-                                    <img class="card-img-top card-img-front" src="./assets/img/site/sandals.png"
+                                    <img class="card-img-top card-img-front" src="./assets/img/site/sandals.png" alt="Brown leather flip-flop sandals on sand"
                                          width="253" height="300">
                                 </a>
 
                                 <!-- Actions -->
 
-                                <button class="btn btn-xs btn-circle btn-white-primary">
+                                <button class="btn btn-xs btn-circle btn-white-primary" aria-label="Quick view: Leather mid-heel Sandals">
                                     <i class="fe fe-eye"></i>
                                 </button>
 
-                                <button class="btn btn-xs btn-circle btn-white-primary">
+                                <button class="btn btn-xs btn-circle btn-white-primary" aria-label="Add to cart: Leather mid-heel Sandals">
                                     <i class="fe fe-shopping-cart"></i>
                                 </button>
 
-                                <button class="btn btn-xs btn-circle btn-white-primary">
+                                <button class="btn btn-xs btn-circle btn-white-primary" aria-label="Add to wishlist: Leather mid-heel Sandals">
                                     <i class="fe fe-heart"></i>
                                 </button>
                             </div>
@@ -433,11 +439,11 @@
                                 </div>
 
                                 <!-- Title -->
-                                <div class="font-weight-bold">
+                                <h3 class="font-weight-bold mb-0 font-size-base line-height-base">
                                     <a class="text-body" href="#">
                                         Leather mid-heel Sandals
                                     </a>
-                                </div>
+                                </h3>
 
                                 <!-- Price -->
                                 <div class="font-weight-bold text-muted">
@@ -455,19 +461,19 @@
                                 <!-- Image -->
                                 <a href="#">
                                     <img class="card-img-top card-img-back"
-                                         src="./assets/img/site/floraldress.png" width="253" height="300">
+                                         src="./assets/img/site/floraldress.png" alt="Woman in a red floral print dress" width="253" height="300">
                                 </a>
 
                                 <!-- Actions -->
-                                <button class="btn btn-xs btn-circle btn-white-primary">
+                                <button class="btn btn-xs btn-circle btn-white-primary" aria-label="Quick view: Cotton floral print Dress">
                                     <i class="fe fe-eye"></i>
                                 </button>
 
-                                <button class="btn btn-xs btn-circle btn-white-primary">
+                                <button class="btn btn-xs btn-circle btn-white-primary" aria-label="Add to cart: Cotton floral print Dress">
                                     <i class="fe fe-shopping-cart"></i>
                                 </button>
 
-                                <button class="btn btn-xs btn-circle btn-white-primary">
+                                <button class="btn btn-xs btn-circle btn-white-primary" aria-label="Add to wishlist: Cotton floral print Dress">
                                     <i class="fe fe-heart"></i>
                                 </button>
                             </div>
@@ -480,11 +486,11 @@
                                 </div>
 
                                 <!-- Title -->
-                                <div class="font-weight-bold">
+                                <h3 class="font-weight-bold mb-0 font-size-base line-height-base">
                                     <a class="text-body" href="#">
                                         Cotton floral print Dress
                                     </a>
-                                </div>
+                                </h3>
 
                                 <!-- Price -->
                                 <div class="font-weight-bold text-muted">
@@ -508,19 +514,19 @@
                                 <!-- Image -->
                                 <a href="#">
                                     <img class="card-img-top card-img-back"
-                                         src="./assets/img/site/leathersneaker.png" width="253" height="300">
+                                         src="./assets/img/site/leathersneaker.png" alt="Mustard suede sneaker with a white sole" width="253" height="300">
                                 </a>
 
                                 <!-- Actions -->
-                                <button class="btn btn-xs btn-circle btn-white-primary">
+                                <button class="btn btn-xs btn-circle btn-white-primary" aria-label="Quick view: Leather Sneakers">
                                     <i class="fe fe-eye"></i>
                                 </button>
 
-                                <button class="btn btn-xs btn-circle btn-white-primary">
+                                <button class="btn btn-xs btn-circle btn-white-primary" aria-label="Add to cart: Leather Sneakers">
                                     <i class="fe fe-shopping-cart"></i>
                                 </button>
 
-                                <button class="btn btn-xs btn-circle btn-white-primary">
+                                <button class="btn btn-xs btn-circle btn-white-primary" aria-label="Add to wishlist: Leather Sneakers">
                                     <i class="fe fe-heart"></i>
                                 </button>
                             </div>
@@ -533,15 +539,15 @@
                                 </div>
 
                                 <!-- Title -->
-                                <div class="font-weight-bold">
+                                <h3 class="font-weight-bold mb-0 font-size-base line-height-base">
                                     <a class="text-body" href="#">
                                         Leather Sneakers
                                     </a>
-                                </div>
+                                </h3>
 
                                 <!-- Price -->
                                 <div class="font-weight-bold">
-                                    <span class="font-size-xs text-gray-350 text-decoration-line-through">$85.00</span>
+                                    <span class="font-size-xs text-gray-450 text-decoration-line-through">$85.00</span>
                                     <span class="text-primary">$85.00</span>
                                 </div>
                             </div>
@@ -555,20 +561,20 @@
                                 <!-- Image -->
                                 <a href="#">
                                     <img class="card-img-top card-img-front"
-                                         src="./assets/img/site/croppedtop.png" width="253" height="300">
+                                         src="./assets/img/site/croppedtop.png" alt="Woman in a pink shirt" width="253" height="300">
                                 </a>
 
                                 <!-- Actions -->
 
-                                <button class="btn btn-xs btn-circle btn-white-primary">
+                                <button class="btn btn-xs btn-circle btn-white-primary" aria-label="Quick view: Cropped cotton Top">
                                     <i class="fe fe-eye"></i>
                                 </button>
 
-                                <button class="btn btn-xs btn-circle btn-white-primary">
+                                <button class="btn btn-xs btn-circle btn-white-primary" aria-label="Add to cart: Cropped cotton Top">
                                     <i class="fe fe-shopping-cart"></i>
                                 </button>
 
-                                <button class="btn btn-xs btn-circle btn-white-primary">
+                                <button class="btn btn-xs btn-circle btn-white-primary" aria-label="Add to wishlist: Cropped cotton Top">
                                     <i class="fe fe-heart"></i>
                                 </button>
                             </div>
@@ -581,11 +587,11 @@
                                 </div>
 
                                 <!-- Title -->
-                                <div class="font-weight-bold">
+                                <h3 class="font-weight-bold mb-0 font-size-base line-height-base">
                                     <a class="text-body" href="#">
                                         Cropped cotton Top
                                     </a>
-                                </div>
+                                </h3>
 
                                 <!-- Price -->
                                 <div class="font-weight-bold text-muted">
@@ -603,19 +609,19 @@
                                 <!-- Image -->
                                 <a href="#">
                                     <img class="card-img-top card-img-front"
-                                         src="./assets/img/site/mididress.png" width="253" height="300">
+                                         src="./assets/img/site/mididress.png" alt="Woman in a black top and long black skirt sitting on a bench" width="253" height="300">
                                 </a>
 
                                 <!-- Actions -->
-                                <button class="btn btn-xs btn-circle btn-white-primary">
+                                <button class="btn btn-xs btn-circle btn-white-primary" aria-label="Quick view: Floral print midi Dress">
                                     <i class="fe fe-eye"></i>
                                 </button>
 
-                                <button class="btn btn-xs btn-circle btn-white-primary">
+                                <button class="btn btn-xs btn-circle btn-white-primary" aria-label="Add to cart: Floral print midi Dress">
                                     <i class="fe fe-shopping-cart"></i>
                                 </button>
 
-                                <button class="btn btn-xs btn-circle btn-white-primary">
+                                <button class="btn btn-xs btn-circle btn-white-primary" aria-label="Add to wishlist: Floral print midi Dress">
                                     <i class="fe fe-heart"></i>
                                 </button>
                             </div>
@@ -628,11 +634,11 @@
                                 </div>
 
                                 <!-- Title -->
-                                <div class="font-weight-bold">
+                                <h3 class="font-weight-bold mb-0 font-size-base line-height-base">
                                     <a class="text-body" href="#">
                                         Floral print midi Dress
                                     </a>
-                                </div>
+                                </h3>
 
                                 <!-- Price -->
                                 <div class="font-weight-bold text-muted">
@@ -656,20 +662,20 @@
                             <div class="card-img">
                                 <!-- Image -->
                                 <a href="product.html">
-                                    <img class="card-img-top card-img-back" src="./assets/img/site/suedebag.png"
+                                    <img class="card-img-top card-img-back" src="./assets/img/site/suedebag.png" alt="Grey and brown backpack with buckled straps"
                                          width="253" height="300">
                                 </a>
 
                                 <!-- Actions -->
-                                <button class="btn btn-xs btn-circle btn-white-primary">
+                                <button class="btn btn-xs btn-circle btn-white-primary" aria-label="Quick view: Suede cross body Bag">
                                     <i class="fe fe-eye"></i>
                                 </button>
 
-                                <button class="btn btn-xs btn-circle btn-white-primary">
+                                <button class="btn btn-xs btn-circle btn-white-primary" aria-label="Add to cart: Suede cross body Bag">
                                     <i class="fe fe-shopping-cart"></i>
                                 </button>
 
-                                <button class="btn btn-xs btn-circle btn-white-primary">
+                                <button class="btn btn-xs btn-circle btn-white-primary" aria-label="Add to wishlist: Suede cross body Bag">
                                     <i class="fe fe-heart"></i>
                                 </button>
                             </div>
@@ -683,15 +689,15 @@
                                 </div>
 
                                 <!-- Title -->
-                                <div class="font-weight-bold">
+                                <h3 class="font-weight-bold mb-0 font-size-base line-height-base">
                                     <a class="text-body" href="#">
                                         Suede cross body Bag
                                     </a>
-                                </div>
+                                </h3>
 
                                 <!-- Price -->
                                 <div class="font-weight-bold">
-                                    <span class="font-size-xs text-gray-350 text-decoration-line-through">$79.00</span>
+                                    <span class="font-size-xs text-gray-450 text-decoration-line-through">$79.00</span>
                                     <span class="text-primary">$49.00</span>
                                 </div>
                             </div>
@@ -705,20 +711,20 @@
                                 <!-- Image -->
                                 <a href="product.html">
                                     <img class="card-img-top card-img-back"
-                                         src="./assets/img/site/alineskirt.png" width="253" height="300">
+                                         src="./assets/img/site/alineskirt.png" alt="Woman in a red checked dress by a yellow wall" width="253" height="300">
                                 </a>
 
                                 <!-- Actions -->
 
-                                <button class="btn btn-xs btn-circle btn-white-primary">
+                                <button class="btn btn-xs btn-circle btn-white-primary" aria-label="Quick view: Printed A-line Skirt">
                                     <i class="fe fe-eye"></i>
                                 </button>
 
-                                <button class="btn btn-xs btn-circle btn-white-primary">
+                                <button class="btn btn-xs btn-circle btn-white-primary" aria-label="Add to cart: Printed A-line Skirt">
                                     <i class="fe fe-shopping-cart"></i>
                                 </button>
 
-                                <button class="btn btn-xs btn-circle btn-white-primary">
+                                <button class="btn btn-xs btn-circle btn-white-primary" aria-label="Add to wishlist: Printed A-line Skirt">
                                     <i class="fe fe-heart"></i>
                                 </button>
                             </div>
@@ -731,11 +737,11 @@
                                 </div>
 
                                 <!-- Title -->
-                                <div class="font-weight-bold">
+                                <h3 class="font-weight-bold mb-0 font-size-base line-height-base">
                                     <a class="text-body" href="#">
                                         Printed A-line Skirt
                                     </a>
-                                </div>
+                                </h3>
 
                                 <!-- Price -->
                                 <div class="font-weight-bold text-muted">
@@ -757,19 +763,19 @@
                                 <!-- Image -->
                                 <a href="#">
                                     <img class="card-img-top card-img-front"
-                                         src="./assets/img/site/strappysandals.png" width="253" height="300">
+                                         src="./assets/img/site/strappysandals.png" alt="Blue strappy sandals held in two hands" width="253" height="300">
                                 </a>
 
                                 <!-- Actions -->
-                                <button class="btn btn-xs btn-circle btn-white-primary">
+                                <button class="btn btn-xs btn-circle btn-white-primary" aria-label="Quick view: Heel strappy Sandals">
                                     <i class="fe fe-eye"></i>
                                 </button>
 
-                                <button class="btn btn-xs btn-circle btn-white-primary">
+                                <button class="btn btn-xs btn-circle btn-white-primary" aria-label="Add to cart: Heel strappy Sandals">
                                     <i class="fe fe-shopping-cart"></i>
                                 </button>
 
-                                <button class="btn btn-xs btn-circle btn-white-primary">
+                                <button class="btn btn-xs btn-circle btn-white-primary" aria-label="Add to wishlist: Heel strappy Sandals">
                                     <i class="fe fe-heart"></i>
                                 </button>
                             </div>
@@ -782,11 +788,11 @@
                                 </div>
 
                                 <!-- Title -->
-                                <div class="font-weight-bold">
+                                <h3 class="font-weight-bold mb-0 font-size-base line-height-base">
                                     <a class="text-body" href="#">
                                         Heel strappy Sandals
                                     </a>
-                                </div>
+                                </h3>
 
                                 <!-- Price -->
                                 <div class="font-weight-bold text-muted">
@@ -808,14 +814,14 @@
         <div class="row justify-content-center">
             <div class="col-12 col-md-10 col-lg-8 col-xl-6 text-center">
                 <!-- Preheading -->
-                <div class="heading-xxs mb-3 text-gray-400">
+                <div class="heading-xxs mb-3 text-gray-450">
                     What buyers say
                 </div>
 
                 <!-- Heading -->
-                <div class="h2 mb-10">
+                <h2 class="h2 mb-10">
                     Latest Buyers Reviews
-                </div>
+                </h2>
             </div>
         </div>
         <div class="row">
@@ -828,7 +834,7 @@
                         <div class="row align-items-center mb-6">
                             <div class="col-4">
                                 <!-- Image -->
-                                <img src="./assets/img/site/smallsneakers.png" class="img-fluid" width="73"
+                                <img src="./assets/img/site/smallsneakers.png" alt="" class="img-fluid" width="73"
                                      height="73">
                             </div>
                             <div class="col-8 ml-n2">
@@ -839,9 +845,9 @@
                                     </a>
 
                                     <!-- Heading -->
-                                    <a class="d-block font-weight-bold text-body" href="#">
+                                    <h3 class="mb-0 line-height-base"><a class="d-block font-weight-bold text-body" href="#">
                                         Low top Sneakers
-                                    </a>
+                                    </a></h3>
                                 </div>
                                 <!-- Rating -->
                                 <div class="rating font-size-xxs text-warning">
@@ -865,17 +871,19 @@
                         </div>
 
                         <!-- Blockquote -->
-                        <div class="mb-0">
-                            <p class="text-muted">
-                                These sneakers are just what I needed! they have a mixture of fabrics, and provide
-                                fantastic heel support. The underside however, has a hard wearing sole which becomes
-                                slippery in the rain.
-                            </p>
-                            <div class="font-size-xs text-muted">
+                        <figure class="mb-0">
+                            <blockquote>
+                                <p class="text-muted">
+                                    These sneakers are just what I needed! they have a mixture of fabrics, and provide
+                                    fantastic heel support. The underside however, has a hard wearing sole which becomes
+                                    slippery in the rain.
+                                </p>
+                            </blockquote>
+                            <figcaption class="font-size-xs text-muted">
                                 Logan Edwards,
                                 <time datetime="2019-06-01">01 Jun 2019</time>
-                            </div>
-                        </div>
+                            </figcaption>
+                        </figure>
                     </div>
                 </div>
             </div>
@@ -889,7 +897,7 @@
                         <div class="row align-items-center mb-6">
                             <div class="col-4">
                                 <!-- Image -->
-                                <img src="./assets/img/site/cottondress.png" class="img-fluid" width="73"
+                                <img src="./assets/img/site/cottondress.png" alt="" class="img-fluid" width="73"
                                      height="73">
                             </div>
                             <div class="col-8 ml-n2">
@@ -900,9 +908,9 @@
                                     </a>
 
                                     <!-- Heading -->
-                                    <a class="d-block font-weight-bold text-body" href="#">
+                                    <h3 class="mb-0 line-height-base"><a class="d-block font-weight-bold text-body" href="#">
                                         Cotton print Dress
-                                    </a>
+                                    </a></h3>
                                 </div>
                                 <!-- Rating -->
                                 <div class="rating font-size-xxs text-warning">
@@ -927,17 +935,19 @@
                         </div>
 
                         <!-- Blockquote -->
-                        <div class="mb-0">
-                            <p class="text-muted">
-                                The print on the dress is just what I've been looking for. It has several layers and
-                                goes from near transparent to opaque and then a dark colour. The cut is very
-                                complementary as well, loose and functional but can be dressed up for events.
-                            </p>
-                            <div class="font-size-xs text-muted">
+                        <figure class="mb-0">
+                            <blockquote>
+                                <p class="text-muted">
+                                    The print on the dress is just what I've been looking for. It has several layers and
+                                    goes from near transparent to opaque and then a dark colour. The cut is very
+                                    complementary as well, loose and functional but can be dressed up for events.
+                                </p>
+                            </blockquote>
+                            <figcaption class="font-size-xs text-muted">
                                 Jane Jefferson,
                                 <time datetime="2019-05-29">29 May 2019</time>
-                            </div>
-                        </div>
+                            </figcaption>
+                        </figure>
                     </div>
                 </div>
 
@@ -952,7 +962,7 @@
                         <div class="row align-items-center mb-6">
                             <div class="col-4">
                                 <!-- Image -->
-                                <img src="./assets/img/site/tshirt.png" class="img-fluid" width="73" height="73">
+                                <img src="./assets/img/site/tshirt.png" alt="" class="img-fluid" width="73" height="73">
                             </div>
                             <div class="col-8 ml-n2">
                                 <!-- Preheading -->
@@ -962,9 +972,9 @@
                                     </a>
 
                                     <!-- Heading -->
-                                    <a class="d-block font-weight-bold text-body" href="#">
+                                    <h3 class="mb-0 line-height-base"><a class="d-block font-weight-bold text-body" href="#">
                                         Oversized print T-shirt
-                                    </a>
+                                    </a></h3>
                                 </div>
                                 <!-- Rating -->
                                 <div class="rating font-size-xxs text-warning">
@@ -988,16 +998,18 @@
                         </div>
 
                         <!-- Blockquote -->
-                        <div class="mb-0">
-                            <p class="text-muted">
-                                The t-shirt wasn't as oversized as I was expecting. It pulls around the arms, and
-                                bunches up around the waist. I've noticed the colour beginning to fade to a grey.
-                            </p>
-                            <div class="font-size-xs text-muted">
+                        <figure class="mb-0">
+                            <blockquote>
+                                <p class="text-muted">
+                                    The t-shirt wasn't as oversized as I was expecting. It pulls around the arms, and
+                                    bunches up around the waist. I've noticed the colour beginning to fade to a grey.
+                                </p>
+                            </blockquote>
+                            <figcaption class="font-size-xs text-muted">
                                 Darrell Baker,
                                 <time datetime="2019-05-18">18 May 2019</time>
-                            </div>
-                        </div>
+                            </figcaption>
+                        </figure>
                     </div>
                 </div>
             </div>
@@ -1011,7 +1023,7 @@
         <div class="row">
             <div class="col-12 text-center">
                 <!-- Heading -->
-                <div class="mb-3 h2">ACME brands</div>
+                <h2 class="mb-3 h2">ACME brands</h2>
 
                 <!-- Subheading -->
                 <p class="mb-10 font-size-lg text-gray-500">
@@ -1025,12 +1037,12 @@
                 <!-- Card -->
                 <div class="card mb-2">
                     <!-- Image -->
-                    <img src="./assets/img/products/product-16.jpg" class="card-img">
+                    <img src="./assets/img/products/product-16.jpg" alt="Woman in an orange lace dress on a city street" class="card-img">
 
                     <!-- Overlay -->
                     <a class="card-img-overlay align-items-center bg-dark-40" href="#">
                         <p class="my-0 font-size-xxs text-center text-white">
-                            <i class="fe fe-heart mr-2"></i> 248 <i class="fe fe-message-square mr-2 ml-3"></i> 3
+                            <i class="fe fe-heart mr-2"></i> <span class="sr-only">Likes:</span> 248 <i class="fe fe-message-square mr-2 ml-3"></i> <span class="sr-only">Comments:</span> 3
                         </p>
                     </a>
                 </div>
@@ -1040,12 +1052,12 @@
                 <div class="card mb-2">
 
                     <!-- Image -->
-                    <img src="./assets/img/products/product-17.jpg" class="card-img">
+                    <img src="./assets/img/products/product-17.jpg" alt="Rose gold watch on a wrist" class="card-img">
 
                     <!-- Overlay -->
                     <a class="card-img-overlay align-items-center bg-dark-40" href="#">
                         <p class="my-0 font-size-xxs text-center text-white">
-                            <i class="fe fe-heart mr-2"></i> 967 <i class="fe fe-message-square mr-2 ml-3"></i> 8
+                            <i class="fe fe-heart mr-2"></i> <span class="sr-only">Likes:</span> 967 <i class="fe fe-message-square mr-2 ml-3"></i> <span class="sr-only">Comments:</span> 8
                         </p>
                     </a>
 
@@ -1056,12 +1068,12 @@
                 <div class="card mb-2">
 
                     <!-- Image -->
-                    <img src="./assets/img/products/product-18.jpg" class="card-img">
+                    <img src="./assets/img/products/product-18.jpg" alt="Woman in sunglasses and a beige trench coat" class="card-img">
 
                     <!-- Overlay -->
                     <a class="card-img-overlay align-items-center bg-dark-40" href="#">
                         <p class="my-0 font-size-xxs text-center text-white">
-                            <i class="fe fe-heart mr-2"></i> 685 <i class="fe fe-message-square mr-2 ml-3"></i> 12
+                            <i class="fe fe-heart mr-2"></i> <span class="sr-only">Likes:</span> 685 <i class="fe fe-message-square mr-2 ml-3"></i> <span class="sr-only">Comments:</span> 12
                         </p>
                     </a>
                 </div>
@@ -1071,12 +1083,12 @@
                 <div class="card mb-2">
 
                     <!-- Image -->
-                    <img src="./assets/img/products/product-19.jpg" class="card-img">
+                    <img src="./assets/img/products/product-19.jpg" alt="Man in a camel blazer and white T-shirt, sitting" class="card-img">
 
                     <!-- Overlay -->
                     <a class="card-img-overlay align-items-center bg-dark-40" href="#">
                         <p class="my-0 font-size-xxs text-center text-white">
-                            <i class="fe fe-heart mr-2"></i> 124 <i class="fe fe-message-square mr-2 ml-3"></i> 3
+                            <i class="fe fe-heart mr-2"></i> <span class="sr-only">Likes:</span> 124 <i class="fe fe-message-square mr-2 ml-3"></i> <span class="sr-only">Comments:</span> 3
                         </p>
                     </a>
 
@@ -1089,12 +1101,12 @@
                 <div class="card">
 
                     <!-- Image -->
-                    <img src="./assets/img/products/product-20.jpg" class="card-img">
+                    <img src="./assets/img/products/product-20.jpg" alt="Woman in a yellow checked skirt holding a small bag" class="card-img">
 
                     <!-- Overlay -->
                     <a class="card-img-overlay align-items-center bg-dark-40" href="#">
                         <p class="my-0 font-size-xxs text-center text-white">
-                            <i class="fe fe-heart mr-2"></i> 356 <i class="fe fe-message-square mr-2 ml-3"></i> 87
+                            <i class="fe fe-heart mr-2"></i> <span class="sr-only">Likes:</span> 356 <i class="fe fe-message-square mr-2 ml-3"></i> <span class="sr-only">Comments:</span> 87
                         </p>
                     </a>
 
@@ -1106,12 +1118,12 @@
                 <div class="card">
 
                     <!-- Image -->
-                    <img src="./assets/img/products/product-21.jpg" class="card-img">
+                    <img src="./assets/img/products/product-21.jpg" alt="White watch and gold bracelet on a wrist" class="card-img">
 
                     <!-- Overlay -->
                     <a class="card-img-overlay align-items-center bg-dark-40" href="#">
                         <p class="my-0 font-size-xxs text-center text-white">
-                            <i class="fe fe-heart mr-2"></i> 868 <i class="fe fe-message-square mr-2 ml-3"></i> 47
+                            <i class="fe fe-heart mr-2"></i> <span class="sr-only">Likes:</span> 868 <i class="fe fe-message-square mr-2 ml-3"></i> <span class="sr-only">Comments:</span> 47
                         </p>
                     </a>
 
@@ -1121,47 +1133,48 @@
         <div class="row">
             <div class="col-4 col-sm-3 col-md text-center">
                 <!-- Brand -->
-                <img src="./assets/img/brands/gray-350/mango.svg" class="img-fluid mb-7 mb-md-0">
+                <img src="./assets/img/brands/gray-350/mango.svg" alt="Mango" class="img-fluid mb-7 mb-md-0">
             </div>
             <div class="col-4 col-sm-3 col-md text-center">
                 <!-- Brand -->
-                <img src="./assets/img/brands/gray-350/zara.svg" class="img-fluid mb-7 mb-md-0">
+                <img src="./assets/img/brands/gray-350/zara.svg" alt="Zara" class="img-fluid mb-7 mb-md-0">
             </div>
             <div class="col-4 col-sm-3 col-md text-center">
                 <!-- Brand -->
-                <img src="./assets/img/brands/gray-350/reebok.svg" class="img-fluid mb-7 mb-md-0">
+                <img src="./assets/img/brands/gray-350/reebok.svg" alt="Reebok" class="img-fluid mb-7 mb-md-0">
             </div>
             <div class="col-4 col-sm-3 col-md text-center">
                 <!-- Brand -->
-                <img src="./assets/img/brands/gray-350/asos.svg" class="img-fluid mb-7 mb-md-0">
+                <img src="./assets/img/brands/gray-350/asos.svg" alt="ASOS" class="img-fluid mb-7 mb-md-0">
             </div>
             <div class="col-4 col-sm-3 col-md text-center">
                 <!-- Brand -->
-                <img src="./assets/img/brands/gray-350/stradivarius.svg" class="img-fluid mb-6 mb-sm-0">
+                <img src="./assets/img/brands/gray-350/stradivarius.svg" alt="Stradivarius" class="img-fluid mb-6 mb-sm-0">
             </div>
             <div class="col-4 col-sm-3 col-md text-center">
                 <!-- Brand -->
-                <img src="./assets/img/brands/gray-350/adidas.svg" class="img-fluid mb-6 mb-sm-0">
+                <img src="./assets/img/brands/gray-350/adidas.svg" alt="Adidas" class="img-fluid mb-6 mb-sm-0">
             </div>
             <div class="col-4 col-sm-3 col-md text-center">
                 <!-- Brand -->
-                <img src="./assets/img/brands/gray-350/bershka.svg" class="img-fluid">
+                <img src="./assets/img/brands/gray-350/bershka.svg" alt="Bershka" class="img-fluid">
             </div>
         </div>
     </div>
 </div>
+</main>
 
 <!-- FOOTER -->
-<div class="bg-dark bg-cover footer">
+<footer class="bg-dark bg-cover footer">
     <div class="py-12 border-bottom border-gray-700">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-10 col-lg-8 col-xl-6">
 
                     <!-- Heading -->
-                    <div class="h5 mb-7 text-center text-white">Want the latest style ideas and fashion advice in your
+                    <h2 class="h5 mb-7 text-center text-white">Want the latest style ideas and fashion advice in your
                         inbox?
-                    </div>
+                    </h2>
 
                     <!-- Form -->
                     <form class="mb-11">
@@ -1180,59 +1193,59 @@
             <div class="row">
                 <div class="col-12 col-md-3">
                     <!-- Heading -->
-                    <img src="./assets/img/site/logobw.png" width="205" height="81">
+                    <img src="./assets/img/site/logobw.png" alt="ACME Fashion House" width="205" height="81">
                 </div>
                 <div class="col-6 col-sm">
 
                     <!-- Heading -->
-                    <div class="heading-xxs mb-4 text-white">
-                        <div>Support</div>
-                    </div>
+                    <h2 class="heading-xxs mb-4 text-white line-height-base">Support</h2>
 
-                    <div><a class="text-gray-300" tabindex="1" href="#">Contact Us</a></div>
-                    <div><a class="text-gray-300" tabindex="2" href="#">FAQs</a></div>
-                    <div><a class="text-gray-300" tabindex="3" href="#">Size Guide</a></div>
-                    <div><a class="text-gray-300" tabindex="4" href="#">Shipping & Returns</a></div>
-
-                </div>
-                <div class="col-6 col-sm">
-
-                    <!-- Heading -->
-                    <div class="heading-xxs mb-4 text-white">
-                        <div>Shop</div>
-                    </div>
-
-                    <div><a class="text-gray-300" tabindex="5" href="#">Men's Shopping</a></div>
-                    <div><a class="text-gray-300" tabindex="6" href="#">Women's Shopping</a></div>
-                    <div><a class="text-gray-300" tabindex="7" href="#">Kids' Shopping</a></div>
-                    <div><a class="text-gray-300" tabindex="8" href="#">Discounts</a></div>
+                    <ul class="mb-0">
+                        <li><a class="text-gray-300" href="#">Contact Us</a></li>
+                        <li><a class="text-gray-300" href="#">FAQs</a></li>
+                        <li><a class="text-gray-300" href="#">Size Guide</a></li>
+                        <li><a class="text-gray-300" href="#">Shipping & Returns</a></li>
+                    </ul>
 
                 </div>
                 <div class="col-6 col-sm">
 
                     <!-- Heading -->
-                    <div class="heading-xxs mb-4 text-white">
-                        <div>Company</div>
-                    </div>
+                    <h2 class="heading-xxs mb-4 text-white line-height-base">Shop</h2>
 
-                    <div><a class="text-gray-300" tabindex="9" href="#">How we work</a></div>
-                    <div><a class="text-gray-300" tabindex="10" href="#">Achievements</a></div>
-                    <div><a class="text-gray-300" tabindex="11" href="#">Our Mission</a></div>
-                    <div><a class="text-gray-300" tabindex="12" href="#">Meet the Team</a></div>
-                    <div><a class="text-gray-300" tabindex="13" href="#">Web accessibility policy</a></div>
+                    <ul class="mb-0">
+                        <li><a class="text-gray-300" href="#">Men's Shopping</a></li>
+                        <li><a class="text-gray-300" href="#">Women's Shopping</a></li>
+                        <li><a class="text-gray-300" href="#">Kids' Shopping</a></li>
+                        <li><a class="text-gray-300" href="#">Discounts</a></li>
+                    </ul>
 
                 </div>
                 <div class="col-6 col-sm">
 
                     <!-- Heading -->
-                    <div class="heading-xxs mb-4 text-white">
-                        <div>Contact</div>
-                    </div>
+                    <h2 class="heading-xxs mb-4 text-white line-height-base">Company</h2>
 
-                    <div><a class="text-gray-300" tabindex="14" href="#">Contact Us</a></div>
-                    <div><a class="text-gray-300" tabindex="15" href="#">Become a Dealer</a></div>
-                    <div><a class="text-gray-300" tabindex="16" href="#">+61 1234 567890</a></div>
-                    <div><a class="text-gray-300" tabindex="17" href="#">hello@canaxess.com.au</a></div>
+                    <ul class="mb-0">
+                        <li><a class="text-gray-300" href="#">How we work</a></li>
+                        <li><a class="text-gray-300" href="#">Achievements</a></li>
+                        <li><a class="text-gray-300" href="#">Our Mission</a></li>
+                        <li><a class="text-gray-300" href="#">Meet the Team</a></li>
+                        <li><a class="text-gray-300" href="#">Web accessibility policy</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-6 col-sm">
+
+                    <!-- Heading -->
+                    <h2 class="heading-xxs mb-4 text-white line-height-base">Contact</h2>
+
+                    <ul class="mb-0">
+                        <li><a class="text-gray-300" href="#">Contact Us</a></li>
+                        <li><a class="text-gray-300" href="#">Become a Dealer</a></li>
+                        <li><a class="text-gray-300" href="#">+61 1234 567890</a></li>
+                        <li><a class="text-gray-300" href="#">hello@canaxess.com.au</a></li>
+                    </ul>
 
                 </div>
             </div>
@@ -1243,17 +1256,18 @@
                     <div class="col-auto">
 
                         <!-- Payment methods -->
-                        <img class="footer-payment" src="./assets/img/payment/mastercard.svg">
-                        <img class="footer-payment" src="./assets/img/payment/visa.svg">
-                        <img class="footer-payment" src="./assets/img/payment/amex.svg">
-                        <img class="footer-payment" src="./assets/img/payment/paypal.svg">
-                        <img class="footer-payment" src="./assets/img/payment/maestro.svg">
-                        <img class="footer-payment" src="./assets/img/payment/klarna.svg">
+                        <img class="footer-payment" src="./assets/img/payment/mastercard.svg" alt="Mastercard">
+                        <img class="footer-payment" src="./assets/img/payment/visa.svg" alt="Visa">
+                        <img class="footer-payment" src="./assets/img/payment/amex.svg" alt="American Express">
+                        <img class="footer-payment" src="./assets/img/payment/paypal.svg" alt="PayPal">
+                        <img class="footer-payment" src="./assets/img/payment/maestro.svg" alt="Maestro">
+                        <img class="footer-payment" src="./assets/img/payment/klarna.svg" alt="Klarna">
 
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</footer>
 </body>
 </html>

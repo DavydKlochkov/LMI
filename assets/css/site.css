@@ -180,3 +180,63 @@ input:focus, select:focus
 {
 	border:2px solid red !important;
 }
+
+/* contrast: coral #ff6f61 gives 2.72:1 with white, #cf3626 gives 4.98:1 */
+a
+{
+	color: #cf3626;
+}
+
+a:hover
+{
+	color: #a82a1e;
+}
+
+.text-primary
+{
+	color: #cf3626 !important;
+}
+
+a.text-primary:focus, a.text-primary:hover
+{
+	color: #a82a1e !important;
+}
+
+.nav-link:hover, .nav-link.active, .nav-link.active:focus, .nav-link.active:hover
+{
+	color: #cf3626;
+}
+
+.nav-link.active::before
+{
+	border-top-color: #cf3626;
+}
+
+.btn-primary
+{
+	background-color: #cf3626;
+	border-color: #cf3626;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:not(:disabled):not(.disabled):active
+{
+	background-color: #a82a1e;
+	border-color: #a82a1e;
+}
+
+.card-circle, [data-cart-items]::before
+{
+	background-color: #cf3626;
+}
+
+.btn-white-primary:hover, .btn-white-primary:focus
+{
+	background-color: #cf3626;
+	border-color: #cf3626;
+}
+
+/* white text on photos: 40% overlay gave 2.46:1 at worst, 65% gives 5.17:1 */
+.card-img-overlay.bg-dark-40
+{
+	background-color: rgba(31, 31, 31, .65) !important;
+}

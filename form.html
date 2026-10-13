@@ -121,9 +121,11 @@
 
           <div class="border">
 
-            <label>Title</label>
+            <p>Fields marked with * are required.</p>
+
+            <label for="title">Title *</label>
             <div class="form-group">
-              <select class="custom-select" id="title">
+              <select class="custom-select" id="title" required>
                 <option value="? string: ?"></option>
                 <option value="Mr">Mr</option>
                 <option value="Mrs">Mrs</option>
@@ -138,19 +140,19 @@
               </select>
             </div>
 
-            <label>First Name</label>
+            <label for="first">First Name *</label>
             <div class="form-group">
-              <input type="text" id="first" class="form-control" autocomplete="off">
+              <input type="text" id="first" class="form-control" autocomplete="off" required>
             </div>
 
-            <label>Last Name</label>
+            <label for="last">Last Name *</label>
             <div class="form-group">
-              <input type="text" id="last" class="form-control" autocomplete="off" maxlength="40">
+              <input type="text" id="last" class="form-control" autocomplete="off" maxlength="40" required>
             </div>
 
-            <label>Email Address</label>
+            <label for="email">Email Address *</label>
             <div class="form-group">
-              <input type="text" id="email" class="form-control" autocomplete="off">
+              <input type="text" id="email" class="form-control" autocomplete="off" required>
             </div>
 
             <div class="custom-control custom-checkbox form-group">
@@ -158,9 +160,8 @@
               <label class="custom-control-label signup" for="signup">Signup to our newsletter</label>
             </div>
 
-            <p>Please indicate your shipping option preferences by selecting the relevant option</p>
-
-            <div class=" form-group">
+            <fieldset class="form-group">
+              <legend class="mb-4">Please indicate your shipping option preferences by selecting the relevant option</legend>
               <div class="custom-control custom-radio">
                 <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
                 <label class="custom-control-label" for="customRadio1">Standard 10 to 14 days</label>
@@ -174,7 +175,7 @@
                 <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
                 <label class="custom-control-label" for="customRadio3">3 workings days</label>
               </div>
-            </div>
+            </fieldset>
 
             <p>By creating an account, you acknowledge that you're aware that your personal data will be used in line with our <a href="#">Privacy Policy</a>. View our <a href="#">Customer Data Promise</a> for more information.</p>
 
